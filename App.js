@@ -7,8 +7,11 @@ import Rodapé from './Rodapé';
 const App = () => {
 return (
 <View style={{ flex: 1 }}>
+        {/* Cabeçalho */}
 <Cabeçalho />
+        {/* Corpo */}
 <Corpo />
+        {/* Rodapé */}
 <Rodapé />
 </View>
 );
